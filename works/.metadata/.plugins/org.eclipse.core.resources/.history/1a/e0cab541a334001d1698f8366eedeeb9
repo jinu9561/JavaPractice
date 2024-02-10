@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class Practice2 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Q 3.1");
+		System.out.print("Enter a, b, c : ");
+		float a = sc.nextFloat();
+		float b = sc.nextFloat();
+		float c = sc.nextFloat();
+		float r1 = (float) ((Math.sqrt(b*b - 4*a*c) - b) / 2*a);
+		float r2 = (float) (((-1)*b - Math.sqrt(b*b - 4*a*c)) / 2*a);
+		System.out.println("The equation has two roots " + r1 + " and " + r2);
+		System.out.println();
+//-----------------------------------------------------------------------------		
+		System.out.println("Q 3.3");
+		float a2 = sc.nextFloat();
+		float b2 = sc.nextFloat();
+		float c2 = sc.nextFloat();
+		float d2 = sc.nextFloat();
+		float e2 = sc.nextFloat();
+		float f2 = sc.nextFloat();
+		double x = (e2*d2 - b2*f2) / (a2*d2 - b2*c2);
+		double y = (a2*f2 - e2*c2) / (a2*d2 - b2*c2);
+		
+		System.out.println();
+		
+		System.out.println("Q 3.4 & 3.5");
+		System.out.println();
+		
+		System.out.println("Q 3.1");
+		System.out.println();
+		
+		System.out.println("Q 3.1");
+		System.out.println();
+		
+		System.out.println("Q 3.1");
+		System.out.println();
+		
+		System.out.println("Q 3.1");
+		System.out.println();
+		
+		System.out.println("Q 3.1");
+		System.out.println();
+		
+		
+		
+		
+		sc.close();
+		
+	}
+
+}

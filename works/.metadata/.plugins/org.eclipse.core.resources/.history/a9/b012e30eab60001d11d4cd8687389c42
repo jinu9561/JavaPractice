@@ -1,0 +1,30 @@
+import java.time.LocalTime;
+import java.util.Date;
+
+public class StopWatch {
+
+	private long startTime;
+	private long endTime;
+	
+	public void start() {
+		Date date = new Date();
+		long timeMilli = date.getTime();
+		System.out.println(timeMilli);
+		
+		startTime = timeMilli;
+	}
+	
+	public void stop() {
+		Date date = new Date();
+		long timeMilli = date.getTime();
+		System.out.println(timeMilli);
+		
+		endTime = timeMilli; 
+	}
+	
+	public long getElapsedTime() {
+		return endTime - startTime;
+		
+	}
+	
+}

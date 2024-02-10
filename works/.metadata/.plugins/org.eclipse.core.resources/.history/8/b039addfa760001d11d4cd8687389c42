@@ -1,0 +1,15 @@
+
+public class StopWatch {
+
+	private double startTime;
+	private double endTime;
+	
+	public void start() {
+		startTime = 0;
+	}
+	
+	public void stop(double i) {
+		endTime = i;
+	}
+	
+}

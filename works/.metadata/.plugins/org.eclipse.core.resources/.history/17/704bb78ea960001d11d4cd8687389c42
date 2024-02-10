@@ -1,0 +1,19 @@
+import java.time.LocalTime;
+
+public class StopWatch {
+
+	private long startTime;
+	private long endTime;
+	
+	LocalTime T = LocalTime.now();
+	
+	public void start() {
+		startTime = 0;
+	}
+	
+	public void stop() {
+		endTime = 
+		
+	}
+	
+}

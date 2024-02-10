@@ -1,0 +1,67 @@
+package map;
+
+import java.util.Scanner;
+
+class cardCheck {
+	int numOfCard;
+	int numOfMap;
+	int cardList[];
+	int mapList[];
+	
+	public cardCheck(int numOfmap,int numOfCard){
+		this.numOfMap = numOfmap;
+		mapList = new int[numOfmap];
+		this.numOfCard = numOfCard;
+		cardList = new int[numOfCard];
+	}
+	
+	public int[] checkedList(){
+		
+		int resList[] = new int[numOfMap];
+		for(int i : resList) {
+			resList[i] = 0;
+			}
+		
+		for(int i : mapList) {
+			for(int j = 0; j < numOfCard; j++) {
+				if(mapList[i] == cardList[j]) {
+					resList[i] = 1;
+				}
+			}
+		}
+		
+		return resList;
+	}
+	
+}
+
+class Main{
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int numOfCard = sc.nextInt();
+		int numOfMap = sc.nextInt();
+		cardCheck cardCheck = new cardCheck(numOfMap, numOfCard);
+		
+		for(int i =0; i < numOfMap; i++) {
+			cardCheck.mapList[i] = sc.nextInt();
+		}
+		
+		for(int i =0; i < numOfCard; i++) {
+			cardCheck.cardList[i] = sc.nextInt();
+		}
+		
+		sc.close();
+		
+		//----------------------------------------------------
+		
+		
+		
+		cardCheck.checkedList();
+		
+	}
+		
+}
+
+

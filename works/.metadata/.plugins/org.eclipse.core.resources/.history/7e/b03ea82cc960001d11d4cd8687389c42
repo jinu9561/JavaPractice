@@ -1,0 +1,10 @@
+
+public class LinearEquation {
+	
+	private double a,b,c,d,e,f;
+	
+	public void  isSolvable() {
+		
+	}
+	
+}

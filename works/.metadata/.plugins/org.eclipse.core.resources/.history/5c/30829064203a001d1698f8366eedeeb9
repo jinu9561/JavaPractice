@@ -1,0 +1,66 @@
+import java.util.Scanner;
+
+public class Practice4 {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double pi = Math.PI;
+		
+		System.out.println("Q 4.1");
+		System.out.print("Enter the length from the center to a vertex: ");
+		double vertex = sc.nextDouble();
+		double s1 = 2 * vertex * (Math.sin(pi/5));
+		double area = (5*Math.pow(s1, 2)) / 4*Math.tan(pi/5);
+		System.out.println("The area of the pentagon is " + area);
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+				
+		
+		
+		
+		sc.close();
+	}
+
+}

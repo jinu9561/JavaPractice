@@ -1,0 +1,68 @@
+package queue;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Scanner;
+
+public class queuePractice1 {
+	
+	static Deque<Integer> queue = new ArrayDeque<>();
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		
+		for(int i = 0; i < num; i++) {
+			String cmd = sc.next();
+			switch (cmd) {
+			case "push": {
+				int value = sc.nextInt();
+				push(value);
+			} break;
+			case "pop": pop(); break;
+			case "size": size(); break;
+			case "empty": empty(); break;
+			case "front": front(); break;
+			case "back": back(); break;
+			default: System.out.println("Invalid command!!"); break;
+			}
+			
+		}
+		
+		sc.close();
+		
+	}
+	
+	public static void push(int value) {
+		queue.add(value);
+	}
+	
+	public static int pop() {
+		return queue.pollLast();
+	}
+	
+	public static int size() {
+		return queue.size();
+	}
+	
+	public static boolean empty() {
+		return queue.isEmpty();
+	}
+	
+	public static int front() {
+		if(queue.peekFirst() == null) {
+			return -1;
+		}
+		else return queue.peekFirst();
+	}
+	
+	public static int back() {
+		if(queue.peekLast() == null) {
+			return -1;
+		}
+		else return queue.peekLast();
+	}
+}

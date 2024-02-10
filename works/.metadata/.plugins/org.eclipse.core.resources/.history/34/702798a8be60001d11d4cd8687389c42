@@ -1,0 +1,22 @@
+import java.time.LocalTime;
+
+public class StopWatch {
+
+	private double startTime;
+	private double endTime;
+	
+	public void start() {
+		LocalTime T = LocalTime.now();
+		startTime = T.getSecond();
+	}
+	
+	public void stop() {
+		LocalTime T = LocalTime.now();
+		endTime = T.getSecond(); 
+	}
+	
+	public double getElapsedTime() {
+		return endTime - startTime;
+	}
+	
+}

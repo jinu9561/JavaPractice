@@ -1,0 +1,74 @@
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Practice10 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+//=========================================================		
+		System.out.println("#### Q 9.1 #### ");
+		
+		Rectangle rectangle1 = new Rectangle();
+		rectangle1.setArea(4, 40);
+		
+		Rectangle rectangle2 = new Rectangle();
+		rectangle2.setArea(3.5, 35.9);
+		
+		System.out.println("--rectangle1--");
+		System.out.println("width: " + rectangle1.getWidth());
+		System.out.println("height: " + rectangle1.getHeight());
+		System.out.println("area: " + rectangle1.getArea());
+		System.out.println("perimeter: " + rectangle1.getPerimeter());
+		System.out.println();
+		
+		System.out.println("--rectangle2--");
+		System.out.println("width: " + rectangle2.getWidth());
+		System.out.println("height: " + rectangle2.getHeight());
+		System.out.println("area: " + rectangle2.getArea());
+		System.out.println("perimeter: " + rectangle2.getPerimeter());
+		System.out.println();
+//=========================================================	
+		
+		System.out.println("#### Q 9.6 #### ");
+		
+		StopWatch sw = new StopWatch();
+		System.out.println("Stop watch");
+		boolean flag = true;
+		
+		while(flag == true) {
+			String cmd = sc.next();	
+			
+			if(cmd == "start") {
+			} 
+			
+			if(cmd == "stop") {
+				flag = false;
+			}
+		}
+		
+		System.out.println(sw.getElapsedTime());
+
+		
+//=========================================================	
+		
+		System.out.println("#### Q 9.10 #### ");
+				
+
+				
+//=========================================================	
+				
+		System.out.println("#### Q 9.11 #### ");
+				
+
+
+		
+		sc.close();
+		
+	}
+	
+}
+

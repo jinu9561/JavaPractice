@@ -1,0 +1,112 @@
+import java.util.Scanner;
+
+public class Practice4 {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double pi = Math.PI;
+		
+//		System.out.println("Q 4.1");
+//		System.out.print("Enter the length from the center to a vertex: ");
+//		double vertex = sc.nextDouble();
+//		double s1 = 2 * vertex * (Math.sin(pi/5));
+//		double area = (5*Math.pow(s1, 2)) / (4*Math.tan(pi/5));
+//		System.out.println("The area of the pentagon is " + area);
+//		System.out.println();
+//
+////===============================================================================
+//		
+//		System.out.println("Q 4.2");
+//		System.out.print("Enter point 1 (latitude and longitude) in degrees: ");
+//		double x1 = Math.toRadians(sc.nextDouble());
+//		double y1 = Math.toRadians(sc.nextDouble());
+//		System.out.print("Enter point 2 (latitude and longitude) in degrees: ");
+//		double x2 = Math.toRadians(sc.nextDouble());
+//		double y2 = Math.toRadians(sc.nextDouble());
+//		double distance = 6371.01 * Math.acos((Math.sin(x1) * Math.sin(x2))
+//				+ (Math.cos(x1) * Math.cos(x2) * Math.cos(y1-y2)));
+//		
+//		System.out.println("The distance between the two points is " + distance);
+//		System.out.println();
+//
+////===============================================================================
+//		
+//		System.out.println("Q 4.8");
+//		System.out.print("Enter an ASCII code: ");
+//		int num = sc.nextInt();
+//		char ascii = (char) num;
+//		System.out.println("The character for ASCII code 69 is " + ascii);
+//		
+//		System.out.println();
+//
+////===============================================================================
+		
+		System.out.println("Q 4.13");
+		System.out.print("Enter a letter grade: ");
+		String letter = sc.next();
+		char ch = letter.charAt(0);
+		if (ch >= 'A' && ch <= 'Z') {
+			switch (letter) {
+				case "A": System.out.println(letter + " is a vowel"); break;
+				case "E": System.out.println(letter + " is a vowel"); break;
+				case "I": System.out.println(letter + " is a vowel"); break;
+				case "O": System.out.println(letter + " is a vowel"); break;
+				case "U": System.out.println(letter + " is a vowel"); break;
+				
+				default : System.out.println(letter + " is a consonant");
+				}
+			}
+		else if (ch >= 'a' && ch <= 'z') {
+			switch (letter) {
+				case "a": System.out.println(letter + " is a vowel"); break;
+				case "e": System.out.println(letter + " is a vowel"); break;
+				case "i": System.out.println(letter + " is a vowel"); break;
+				case "o": System.out.println(letter + " is a vowel"); break;
+				case "u": System.out.println(letter + " is a vowel"); break;
+				
+				default : System.out.println(letter + " is a consonant");
+				}
+			}
+		else {
+			System.out.println(letter + " is an invalid input");
+		}
+
+
+		
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+		System.out.println("Q ");
+		System.out.println();
+
+//===============================================================================
+		
+				
+		
+		
+		
+		sc.close();
+	}
+
+}

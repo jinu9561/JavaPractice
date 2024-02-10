@@ -1,0 +1,117 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JTextField;
+
+public class RegisteredCourseManger extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField textField;
+	private JTextField textField_1;
+	private JTextField textField_2;
+	private JTextField textField_3;
+	private JTextField textField_4;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					RegisteredCourseManger frame = new RegisteredCourseManger();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public RegisteredCourseManger() {
+		setTitle("registered course");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 250);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel l1 = new JLabel("COURSE ID");
+		l1.setBounds(25, 30, 137, 15);
+		contentPane.add(l1);
+		
+		JLabel lblCourseMajor = new JLabel("COURSE NAME");
+		lblCourseMajor.setBounds(25, 60, 137, 15);
+		contentPane.add(lblCourseMajor);
+		
+		JLabel lblCourseMajor_1 = new JLabel("COURSE MAJOR");
+		lblCourseMajor_1.setBounds(25, 90, 137, 15);
+		contentPane.add(lblCourseMajor_1);
+		
+		JLabel lblCourse = new JLabel("COURSE PROFESSOR");
+		lblCourse.setBounds(25, 120, 137, 15);
+		contentPane.add(lblCourse);
+		
+		JLabel lblCourseScore = new JLabel("COURSE SCORE");
+		lblCourseScore.setBounds(25, 150, 137, 15);
+		contentPane.add(lblCourseScore);
+		
+		JButton btnGoMain = new JButton("<- BACK");
+		btnGoMain.setFont(new Font("±¼¸²", Font.BOLD, 12));
+		btnGoMain.setBounds(25, 180, 185, 23);
+		contentPane.add(btnGoMain);
+		
+		textField = new JTextField();
+		textField.setBounds(160, 27, 249, 21);
+		contentPane.add(textField);
+		textField.setColumns(10);
+		
+		textField_1 = new JTextField();
+		textField_1.setColumns(10);
+		textField_1.setBounds(160, 57, 249, 21);
+		contentPane.add(textField_1);
+		
+		textField_2 = new JTextField();
+		textField_2.setColumns(10);
+		textField_2.setBounds(160, 87, 249, 21);
+		contentPane.add(textField_2);
+		
+		textField_3 = new JTextField();
+		textField_3.setColumns(10);
+		textField_3.setBounds(160, 117, 249, 21);
+		contentPane.add(textField_3);
+		
+		textField_4 = new JTextField();
+		textField_4.setColumns(10);
+		textField_4.setBounds(160, 147, 249, 21);
+		contentPane.add(textField_4);
+		
+		JButton btnAddCourse = new JButton("ADD");
+		btnAddCourse.setFont(new Font("±¼¸²", Font.BOLD, 12));
+		btnAddCourse.setBounds(222, 180, 187, 23);
+		contentPane.add(btnAddCourse);
+		
+//========================================================================		
+		btnGoMain.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				StudentManagerMain main = new StudentManagerMain();
+				main.setVisible(true);
+				dispose();
+			}
+		});
+		
+	}
+}

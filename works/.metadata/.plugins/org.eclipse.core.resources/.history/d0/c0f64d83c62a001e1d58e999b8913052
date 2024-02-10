@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class DxDyLeftRight {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.next();
+        int n = str.length();
+        
+        int DxDy[] = {0, 0};
+        int dirNum = 0;
+        
+        for(int i = 0; i < n; i++) {
+        	String dir = sc.next();
+        	
+        	switch (dir) {
+			case "L" : {
+				if() {
+					
+				}
+			}
+			case "R" : DxDy[1] -= dirNum; break;
+			case "F" : DxDy[0] += dirNum; break;
+			default :
+				throw new IllegalArgumentException("Unexpected value: " + dir);
+			}
+        }
+        
+        System.out.println(DxDy[0] + " " + DxDy[1]);
+       
+        
+    }
+
+}

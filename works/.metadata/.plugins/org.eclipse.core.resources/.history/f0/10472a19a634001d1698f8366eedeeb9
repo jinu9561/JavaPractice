@@ -1,0 +1,96 @@
+import java.util.Scanner;
+
+public class Practice2 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+//		System.out.println("Q 3.1");
+//		System.out.print("Enter a, b, c : ");
+//		float a = sc.nextFloat();
+//		float b = sc.nextFloat();
+//		float c = sc.nextFloat();
+//		float r1 = (float) ((Math.sqrt(b*b - 4*a*c) - b) / 2*a);
+//		float r2 = (float) (((-1)*b - Math.sqrt(b*b - 4*a*c)) / 2*a);
+//		
+//		if(b*b - 4*a*c > 0) 
+//			System.out.println("The equation has two roots " + r1 + " and " + r2);
+//		else if(b*b - 4*a*c == 0)
+//			System.out.println("The equation has one root " + r1);
+//		else 
+//			System.out.println("The equation has no real root");
+//		
+//		System.out.println();
+////-----------------------------------------------------------------------------		
+//		System.out.println("Q 3.3");
+//		System.out.print("Enter a, b, c, d, e, f : ");
+//		float a2 = sc.nextFloat();
+//		float b2 = sc.nextFloat();
+//		float c2 = sc.nextFloat();
+//		float d2 = sc.nextFloat();
+//		float e2 = sc.nextFloat();
+//		float f2 = sc.nextFloat();
+//		float x = (e2*d2 - b2*f2) / (a2*d2 - b2*c2);
+//		float y = (a2*f2 - e2*c2) / (a2*d2 - b2*c2);
+//		
+//		if(a2*d2 - b2*c2 == 0) 
+//			System.out.println("The equation has no solution");
+//		else 
+//			System.out.println("x is " + x + " and y is " + y);
+//		
+//		System.out.println();
+//------------------------------------------------------------------------------		
+		System.out.println("Q 3.4 & 3.5");
+		System.out.print("Enter today's day : ");
+		int day = sc.nextInt();
+		int today = day%7;
+		System.out.print("Enter the number of days elapsed since today : ");
+		int future = sc.nextInt();
+		int futureday = future + day;
+		switch (today) {
+			case 0: System.out.println("Sunday"); break;
+			case 1: System.out.println("Munday"); break;
+			case 2: System.out.println("Tuesday"); break;
+			case 3: System.out.println("Wednesday"); break;
+			case 4: System.out.println("Thursday"); break;
+			case 5: System.out.println("Friday"); break;
+			case 6: System.out.println("Saturday"); break;
+			}
+		switch (futureday) {
+			case 0: System.out.println("Sunday"); break;
+			case 1: System.out.println("Munday"); break;
+			case 2: System.out.println("Tuesday"); break;
+			case 3: System.out.println("Wednesday"); break;
+			case 4: System.out.println("Thursday"); break;
+			case 5: System.out.println("Friday"); break;
+			case 6: System.out.println("Saturday"); break;
+		}
+//		System.out.println("Today is " + + "and the future day is " + );
+		
+		
+//		System.out.println();
+//		
+//		System.out.println("Q 3.1");
+//		System.out.println();
+//		
+//		System.out.println("Q 3.1");
+//		System.out.println();
+//		
+//		System.out.println("Q 3.1");
+//		System.out.println();
+//		
+//		System.out.println("Q 3.1");
+//		System.out.println();
+//		
+//		System.out.println("Q 3.1");
+//		System.out.println();
+//		
+		
+		
+		
+		sc.close();
+		
+	}
+
+}

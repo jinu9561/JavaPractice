@@ -1,0 +1,65 @@
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+
+public class RegisteredCourseManger extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					RegisteredCourseManger frame = new RegisteredCourseManger();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public RegisteredCourseManger() {
+		setTitle("registered course");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel l1 = new JLabel("COURSE ID");
+		l1.setBounds(31, 35, 137, 15);
+		contentPane.add(l1);
+		
+		JLabel lblCourseMajor = new JLabel("COURSE NAME");
+		lblCourseMajor.setBounds(31, 60, 137, 15);
+		contentPane.add(lblCourseMajor);
+		
+		JLabel lblCourseMajor_1 = new JLabel("COURSE MAJOR");
+		lblCourseMajor_1.setBounds(31, 85, 137, 15);
+		contentPane.add(lblCourseMajor_1);
+		
+		JLabel lblCourse = new JLabel("COURSE PROFESSOR");
+		lblCourse.setBounds(31, 110, 137, 15);
+		contentPane.add(lblCourse);
+		
+		JLabel lblCourseScore = new JLabel("COURSE SCORE");
+		lblCourseScore.setBounds(31, 142, 137, 15);
+		contentPane.add(lblCourseScore);
+		
+		JLabel lblStuedentId = new JLabel("STUDENT ID");
+		lblStuedentId.setBounds(31, 10, 50, 15);
+		contentPane.add(lblStuedentId);
+	}
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Practice3 {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int i = 0;
+		int num = 0;		
+		
+		while(i == 0) {
+			int j = sc.nextInt();
+			num += j;
+			i = j;
+		}
+		
+		System.out.println(num);
+		
+		sc.close();
+	}
+
+}

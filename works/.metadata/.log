@@ -1,0 +1,1932 @@
+!SESSION 2023-07-25 16:22:36.477 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.committers.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.committers.product
+
+This is a continuation of log file C:\java\dev\works\.metadata\.bak_1.log
+Created Time: 2023-07-26 10:16:00.878
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:00.878
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.210
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.226
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.251
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.258
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.274
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.298
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.306
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.321
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.329
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui 4 0 2023-07-26 10:16:01.337
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NoSuchMethodError: 'boolean com.ibm.icu.text.UTF16.isSurrogate(char)'
+	at org.eclipse.jdt.internal.ui.text.JavaWordFinder.findWord(JavaWordFinder.java:39)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaElementHyperlinkDetector.detectHyperlinks(JavaElementHyperlinkDetector.java:102)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.monitoring 2 0 2023-07-26 12:04:23.347
+!MESSAGE UI freeze of 0.58s at 12:04:18.513
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2023-07-26 12:04:23.350
+!MESSAGE Sample at 12:04:18.897 (+0.384s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.StringBuffer.append(StringBuffer.java:393)
+	at java.base@17.0.2/java.io.StringWriter.write(StringWriter.java:122)
+	at java.base@17.0.2/java.io.PrintWriter.write(PrintWriter.java:541)
+	at java.base@17.0.2/java.io.PrintWriter.write(PrintWriter.java:558)
+	at java.base@17.0.2/java.io.PrintWriter.print(PrintWriter.java:685)
+	at org.eclipse.ui.XMLMemento$DOMWriter.startTag(XMLMemento.java:693)
+	at org.eclipse.ui.XMLMemento$DOMWriter.print(XMLMemento.java:655)
+	at org.eclipse.ui.XMLMemento$DOMWriter.print(XMLMemento.java:665)
+	at org.eclipse.ui.XMLMemento$DOMWriter.print(XMLMemento.java:665)
+	at org.eclipse.ui.XMLMemento$DOMWriter.print(XMLMemento.java:665)
+	at org.eclipse.ui.XMLMemento.save(XMLMemento.java:611)
+	at org.eclipse.ui.internal.Workbench.persistWorkbenchState(Workbench.java:3489)
+	at org.eclipse.ui.internal.Workbench$13.run(Workbench.java:1174)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.persist(Workbench.java:1171)
+	at org.eclipse.ui.internal.Workbench$41.runInUIThread(Workbench.java:2792)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.ui.progress.UIJob$$Lambda$1144/0x0000000100c08228.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$258/0x00000001003ac000.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.monitoring 4 0 2023-07-31 11:47:47.165
+!MESSAGE UI freeze of 2.6s at 11:47:37.320
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2023-07-31 11:47:47.177
+!MESSAGE Sample at 11:47:39.693 (+2.373s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.util.HashMap$HashIterator.<init>(HashMap.java:1585)
+	at java.base@17.0.2/java.util.HashMap$KeyIterator.<init>(HashMap.java:1618)
+	at java.base@17.0.2/java.util.HashMap$KeySet.iterator(HashMap.java:983)
+	at java.base@17.0.2/java.util.HashSet.iterator(HashSet.java:174)
+	at org.eclipse.osgi.internal.container.Capabilities$NamespaceSet.match(Capabilities.java:173)
+	at org.eclipse.osgi.internal.container.Capabilities$NamespaceSet.findCapabilities(Capabilities.java:156)
+	at org.eclipse.osgi.internal.container.Capabilities.findCapabilities(Capabilities.java:280)
+	at org.eclipse.osgi.container.ModuleDatabase.findCapabilities(ModuleDatabase.java:881)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerWiring.findProviders(ModuleContainer.java:1496)
+	at org.eclipse.osgi.internal.framework.legacy.PackageAdminImpl.getBundles(PackageAdminImpl.java:189)
+	at org.eclipse.core.internal.registry.osgi.OSGIUtils.getBundle(OSGIUtils.java:122)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:186)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:920)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:378)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:177)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:137)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:228)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:123)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:133)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:152)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:423)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.updateThemes(WorkbenchThemeManager.java:180)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager.lambda$1(WorkbenchThemeManager.java:148)
+	at org.eclipse.ui.internal.themes.WorkbenchThemeManager$$Lambda$336/0x00000001004f5708.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4235)
+	at org.eclipse.swt.widgets.Display.runSettings(Display.java:4111)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3260)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$258/0x00000001003ac000.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.monitoring 4 0 2023-08-01 11:28:37.832
+!MESSAGE UI freeze of 2.3s at 11:28:35.537
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.833
+!MESSAGE Sample at 11:28:37.246 (+1.709s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base@17.0.2/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:283)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:716)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:639)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:607)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:587)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:566)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:484)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base@17.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.buildship.core.internal.preferences.PersistentModelConverter.storeList(PersistentModelConverter.java:227)
+	at org.eclipse.buildship.core.internal.preferences.PersistentModelConverter.toProperties(PersistentModelConverter.java:68)
+	at org.eclipse.buildship.core.internal.preferences.DefaultModelPersistence.persistPrefsChecked(DefaultModelPersistence.java:160)
+	at org.eclipse.buildship.core.internal.preferences.DefaultModelPersistence.persistPrefs(DefaultModelPersistence.java:146)
+	at org.eclipse.buildship.core.internal.preferences.DefaultModelPersistence.persistAllProjectPrefs(DefaultModelPersistence.java:139)
+	at org.eclipse.buildship.core.internal.preferences.DefaultModelPersistence.onEvent(DefaultModelPersistence.java:89)
+	at org.eclipse.buildship.core.internal.event.DefaultListenerRegistry.dispatch(DefaultListenerRegistry.java:50)
+	at org.eclipse.buildship.ui.internal.workspace.ShutdownListener.preShutdown(ShutdownListener.java:27)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:920)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil$$Lambda$114/0x0000000100239c40.run(Unknown Source)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.ui.internal.Workbench.firePreShutdown(Workbench.java:917)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1046)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench$$Lambda$1989/0x000000010117fc88.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1988/0x000000010117fa68.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$422/0x0000000100588c18.close(Unknown Source)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$$Lambda$393/0x0000000100564478.accept(Unknown Source)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4748)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$258/0x00000001003ac000.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.833
+!MESSAGE Thread 'Common-Cleaner' tid=13 (TIMED_WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@382857ad
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.833
+!MESSAGE Thread 'Active Thread: Equinox Container: a24f4605-f6cf-4122-a7ab-e875f890a4d6' tid=16 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@0eb0d08d
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.833
+!MESSAGE Thread 'SCR Component Actor' tid=20 (WAITING)
+Waiting for: java.util.LinkedList@68e1da8e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.833
+!MESSAGE Thread 'EMF Reference Cleaner' tid=22 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@605d5ba7
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.833
+!MESSAGE Thread 'Worker-JM' tid=23 (WAITING)
+Waiting for: java.util.ArrayList@633675ab
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Gogo shell' tid=33 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@02cb6f0a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Git Repository Closer' tid=38 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@6498e077
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Java indexing' tid=42 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@3ed9b464
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:416)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=45 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@67b32f8a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'pool-3-thread-1' tid=60 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4997f54e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'pool-4-thread-1' tid=61 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@37a64c89
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Thread-15' tid=83 (TIMED_WAITING)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'LS-org.eclipse.languageserver.languages.springboot@2022SecondSemester#dispatcher' tid=100 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66073359
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=102 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@10cc8752
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'pool-5-thread-1' tid=111 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@158b53c6
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Worker-26: Process Console Input Job' tid=397 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@186824ba
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Worker-27: Process Console Input Job' tid=401 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@47aa4115
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.834
+!MESSAGE Thread 'Output Stream Monitor' tid=513 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.835
+!MESSAGE Thread 'Output Stream Monitor' tid=514 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.835
+!MESSAGE Thread 'Input Stream Monitor' tid=515 (WAITING)
+Waiting for: java.lang.Object@305131e5
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:193)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:163)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1879/0x000000010115da28.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.835
+!MESSAGE Thread 'Process monitor' tid=516 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:561)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:478)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.835
+!MESSAGE Thread 'Packet Receive Manager' tid=519 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@2c919316
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base@17.0.2/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.eclipse.jdi.internal.connect.SocketConnection.readPacket(SocketConnection.java:82)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.readAvailablePacket(PacketReceiveManager.java:303)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.run(PacketReceiveManager.java:90)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'Packet Send Manager' tid=520 (WAITING)
+Waiting for: java.util.LinkedList@3a944367
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendAvailablePackets(PacketSendManager.java:112)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.run(PacketSendManager.java:58)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'org.eclipse.jdt.debug: JDI Event Dispatcher' tid=521 (TIMED_WAITING)
+Waiting for: java.util.LinkedList@037393c9
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.waitForPacketAvailable(PacketReceiveManager.java:220)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getCommand(PacketReceiveManager.java:118)
+	at org.eclipse.jdi.internal.MirrorImpl.getCommandVM(MirrorImpl.java:324)
+	at org.eclipse.jdi.internal.event.EventQueueImpl.remove(EventQueueImpl.java:71)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.run(EventDispatcher.java:298)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'Output Stream Monitor' tid=561 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'Output Stream Monitor' tid=562 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'Input Stream Monitor' tid=563 (WAITING)
+Waiting for: java.lang.Object@30b77cb1
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:193)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:163)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1879/0x000000010115da28.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'Process monitor' tid=564 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:561)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:478)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.836
+!MESSAGE Thread 'Packet Receive Manager' tid=568 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@5931f2e0
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base@17.0.2/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.eclipse.jdi.internal.connect.SocketConnection.readPacket(SocketConnection.java:82)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.readAvailablePacket(PacketReceiveManager.java:303)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.run(PacketReceiveManager.java:90)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Packet Send Manager' tid=569 (WAITING)
+Waiting for: java.util.LinkedList@5c0bc19a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendAvailablePackets(PacketSendManager.java:112)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.run(PacketSendManager.java:58)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'org.eclipse.jdt.debug: JDI Event Dispatcher' tid=571 (TIMED_WAITING)
+Waiting for: java.util.LinkedList@57d27c5e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.waitForPacketAvailable(PacketReceiveManager.java:220)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getCommand(PacketReceiveManager.java:118)
+	at org.eclipse.jdi.internal.MirrorImpl.getCommandVM(MirrorImpl.java:324)
+	at org.eclipse.jdi.internal.event.EventQueueImpl.remove(EventQueueImpl.java:71)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.run(EventDispatcher.java:298)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=614 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@4cda1a36
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Sample at 11:28:37.587 (+0.341s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base@17.0.2/java.lang.ClassLoader.defineClass(ClassLoader.java:1012)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.defineClass(ModuleClassLoader.java:283)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.defineClass(ClasspathManager.java:716)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findClassImpl(ClasspathManager.java:639)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:607)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClassImpl(ClasspathManager.java:587)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:566)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:397)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:488)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base@17.0.2/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1095)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1091)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench$$Lambda$1989/0x000000010117fc88.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1988/0x000000010117fa68.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$422/0x0000000100588c18.close(Unknown Source)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$$Lambda$393/0x0000000100564478.accept(Unknown Source)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4748)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$258/0x00000001003ac000.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Common-Cleaner' tid=13 (TIMED_WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@382857ad
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Active Thread: Equinox Container: a24f4605-f6cf-4122-a7ab-e875f890a4d6' tid=16 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@0eb0d08d
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'SCR Component Actor' tid=20 (WAITING)
+Waiting for: java.util.LinkedList@68e1da8e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'EMF Reference Cleaner' tid=22 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@605d5ba7
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Worker-JM' tid=23 (WAITING)
+Waiting for: java.util.ArrayList@633675ab
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Gogo shell' tid=33 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@02cb6f0a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Git Repository Closer' tid=38 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@6498e077
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Java indexing' tid=42 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@3ed9b464
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:416)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=45 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@67b32f8a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'pool-3-thread-1' tid=60 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4997f54e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'pool-4-thread-1' tid=61 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@37a64c89
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Thread-15' tid=83 (TIMED_WAITING)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'LS-org.eclipse.languageserver.languages.springboot@2022SecondSemester#dispatcher' tid=100 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66073359
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=102 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@10cc8752
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'pool-5-thread-1' tid=111 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@158b53c6
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Worker-26: Process Console Input Job' tid=397 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@186824ba
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Worker-27: Process Console Input Job' tid=401 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@47aa4115
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.837
+!MESSAGE Thread 'Output Stream Monitor' tid=513 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Output Stream Monitor' tid=514 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Input Stream Monitor' tid=515 (WAITING)
+Waiting for: java.lang.Object@305131e5
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:193)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:163)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1879/0x000000010115da28.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Process monitor' tid=516 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:561)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:478)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Packet Receive Manager' tid=519 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@2c919316
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base@17.0.2/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.eclipse.jdi.internal.connect.SocketConnection.readPacket(SocketConnection.java:82)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.readAvailablePacket(PacketReceiveManager.java:303)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.run(PacketReceiveManager.java:90)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Packet Send Manager' tid=520 (WAITING)
+Waiting for: java.util.LinkedList@3a944367
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendAvailablePackets(PacketSendManager.java:112)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.run(PacketSendManager.java:58)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'org.eclipse.jdt.debug: JDI Event Dispatcher' tid=521 (TIMED_WAITING)
+Waiting for: java.util.LinkedList@037393c9
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.waitForPacketAvailable(PacketReceiveManager.java:220)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getCommand(PacketReceiveManager.java:118)
+	at org.eclipse.jdi.internal.MirrorImpl.getCommandVM(MirrorImpl.java:324)
+	at org.eclipse.jdi.internal.event.EventQueueImpl.remove(EventQueueImpl.java:71)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.run(EventDispatcher.java:298)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Output Stream Monitor' tid=561 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Output Stream Monitor' tid=562 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Input Stream Monitor' tid=563 (WAITING)
+Waiting for: java.lang.Object@30b77cb1
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:193)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:163)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1879/0x000000010115da28.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Process monitor' tid=564 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:561)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:478)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Packet Receive Manager' tid=568 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@5931f2e0
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base@17.0.2/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.eclipse.jdi.internal.connect.SocketConnection.readPacket(SocketConnection.java:82)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.readAvailablePacket(PacketReceiveManager.java:303)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.run(PacketReceiveManager.java:90)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'Packet Send Manager' tid=569 (WAITING)
+Waiting for: java.util.LinkedList@5c0bc19a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendAvailablePackets(PacketSendManager.java:112)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.run(PacketSendManager.java:58)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.838
+!MESSAGE Thread 'org.eclipse.jdt.debug: JDI Event Dispatcher' tid=571 (TIMED_WAITING)
+Waiting for: java.util.LinkedList@57d27c5e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.waitForPacketAvailable(PacketReceiveManager.java:220)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getCommand(PacketReceiveManager.java:118)
+	at org.eclipse.jdi.internal.MirrorImpl.getCommandVM(MirrorImpl.java:324)
+	at org.eclipse.jdi.internal.event.EventQueueImpl.remove(EventQueueImpl.java:71)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.run(EventDispatcher.java:298)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.839
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=614 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@4cda1a36
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.839
+!MESSAGE Sample at 11:28:37.665 (+0.078s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at org.eclipse.ui.internal.WorkbenchPlugin.getDebugOptions(WorkbenchPlugin.java:1399)
+	at org.eclipse.ui.internal.e4.compatibility.E4Util.<clinit>(E4Util.java:35)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1095)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1091)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench$$Lambda$1989/0x000000010117fc88.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$1988/0x000000010117fa68.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.ui.internal.WorkbenchWindow$$Lambda$422/0x0000000100588c18.close(Unknown Source)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:570)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$$Lambda$393/0x0000000100564478.accept(Unknown Source)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4748)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2286)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.ui.internal.Workbench$$Lambda$258/0x00000001003ac000.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.839
+!MESSAGE Thread 'Common-Cleaner' tid=13 (TIMED_WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@382857ad
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+	at java.base@17.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.839
+!MESSAGE Thread 'Active Thread: Equinox Container: a24f4605-f6cf-4122-a7ab-e875f890a4d6' tid=16 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@0eb0d08d
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+	at java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+	at java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.839
+!MESSAGE Thread 'SCR Component Actor' tid=20 (WAITING)
+Waiting for: java.util.LinkedList@68e1da8e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.apache.felix.scr.impl.ComponentActorThread.run(ComponentActorThread.java:83)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.840
+!MESSAGE Thread 'EMF Reference Cleaner' tid=22 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@605d5ba7
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.840
+!MESSAGE Thread 'Worker-JM' tid=23 (WAITING)
+Waiting for: java.util.ArrayList@633675ab
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:61)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.840
+!MESSAGE Thread 'Gogo shell' tid=33 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@02cb6f0a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.840
+!MESSAGE Thread 'Git Repository Closer' tid=38 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@6498e077
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at org.eclipse.egit.core.RepositoryCache$Closer.run(RepositoryCache.java:453)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.840
+!MESSAGE Thread 'Java indexing' tid=42 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@3ed9b464
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:416)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=45 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@67b32f8a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'pool-3-thread-1' tid=60 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4997f54e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'pool-4-thread-1' tid=61 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@37a64c89
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Thread-15' tid=83 (TIMED_WAITING)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:73)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'LS-org.eclipse.languageserver.languages.springboot@2022SecondSemester#dispatcher' tid=100 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@66073359
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=102 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@10cc8752
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'pool-5-thread-1' tid=111 (WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@158b53c6
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+	at java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+	at java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+	at java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+	at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Worker-26: Process Console Input Job' tid=397 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@186824ba
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Worker-27: Process Console Input Job' tid=401 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@47aa4115
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:141)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:92)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:114)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:908)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Output Stream Monitor' tid=513 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Output Stream Monitor' tid=514 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Input Stream Monitor' tid=515 (WAITING)
+Waiting for: java.lang.Object@305131e5
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:193)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:163)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1879/0x000000010115da28.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Process monitor' tid=516 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:561)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:478)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.841
+!MESSAGE Thread 'Packet Receive Manager' tid=519 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@2c919316
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base@17.0.2/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.eclipse.jdi.internal.connect.SocketConnection.readPacket(SocketConnection.java:82)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.readAvailablePacket(PacketReceiveManager.java:303)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.run(PacketReceiveManager.java:90)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.842
+!MESSAGE Thread 'Packet Send Manager' tid=520 (WAITING)
+Waiting for: java.util.LinkedList@3a944367
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendAvailablePackets(PacketSendManager.java:112)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.run(PacketSendManager.java:58)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.842
+!MESSAGE Thread 'org.eclipse.jdt.debug: JDI Event Dispatcher' tid=521 (TIMED_WAITING)
+Waiting for: java.util.LinkedList@037393c9
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.waitForPacketAvailable(PacketReceiveManager.java:220)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getCommand(PacketReceiveManager.java:118)
+	at org.eclipse.jdi.internal.MirrorImpl.getCommandVM(MirrorImpl.java:324)
+	at org.eclipse.jdi.internal.event.EventQueueImpl.remove(EventQueueImpl.java:71)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.run(EventDispatcher.java:298)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.842
+!MESSAGE Thread 'Output Stream Monitor' tid=561 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.842
+!MESSAGE Thread 'Output Stream Monitor' tid=562 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@17.0.2/java.io.FileInputStream.read(FileInputStream.java:276)
+	at java.base@17.0.2/java.io.BufferedInputStream.read1(BufferedInputStream.java:282)
+	at java.base@17.0.2/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+	at java.base@17.0.2/java.io.FilterInputStream.read(FilterInputStream.java:106)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.internalRead(OutputStreamMonitor.java:252)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:228)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$$Lambda$1878/0x000000010115d808.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.843
+!MESSAGE Thread 'Input Stream Monitor' tid=563 (WAITING)
+Waiting for: java.lang.Object@30b77cb1
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:193)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:163)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$$Lambda$1879/0x000000010115da28.run(Unknown Source)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.843
+!MESSAGE Thread 'Process monitor' tid=564 (RUNNABLE)
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.base@17.0.2/java.lang.ProcessImpl.waitFor(ProcessImpl.java:561)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:478)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.843
+!MESSAGE Thread 'Packet Receive Manager' tid=568 (RUNNABLE)
+Holding: java.util.concurrent.locks.ReentrantLock$NonfairSync@5931f2e0
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:961)
+	at java.base@17.0.2/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.eclipse.jdi.internal.connect.SocketConnection.readPacket(SocketConnection.java:82)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.readAvailablePacket(PacketReceiveManager.java:303)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.run(PacketReceiveManager.java:90)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.843
+!MESSAGE Thread 'Packet Send Manager' tid=569 (WAITING)
+Waiting for: java.util.LinkedList@5c0bc19a
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at java.base@17.0.2/java.lang.Object.wait(Object.java:338)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.sendAvailablePackets(PacketSendManager.java:112)
+	at org.eclipse.jdi.internal.connect.PacketSendManager.run(PacketSendManager.java:58)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.843
+!MESSAGE Thread 'org.eclipse.jdt.debug: JDI Event Dispatcher' tid=571 (TIMED_WAITING)
+Waiting for: java.util.LinkedList@57d27c5e
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.waitForPacketAvailable(PacketReceiveManager.java:220)
+	at org.eclipse.jdi.internal.connect.PacketReceiveManager.getCommand(PacketReceiveManager.java:118)
+	at org.eclipse.jdi.internal.MirrorImpl.getCommandVM(MirrorImpl.java:324)
+	at org.eclipse.jdi.internal.event.EventQueueImpl.remove(EventQueueImpl.java:71)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.run(EventDispatcher.java:298)
+	at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2023-08-01 11:28:37.843
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=614 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@4cda1a36
+!STACK 0
+Stack Trace
+	at java.base@17.0.2/java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler.delay(AbstractReconciler.java:572)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:181)

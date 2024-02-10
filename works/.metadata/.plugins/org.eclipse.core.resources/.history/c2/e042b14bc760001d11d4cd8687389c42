@@ -1,0 +1,50 @@
+
+public class QuadraticEquation {
+
+	double a, b, c;
+	
+	public void setA(double a) {
+		this.a = a;
+	}
+	public void setB(double b) {
+		this.b = b;
+	}
+	public void setC(double c) {
+		this.c = c;
+	}
+	
+	public double getA() {
+		return a;
+	}
+	public double getB() {
+		return b;
+	}
+	public double getC() {
+		return c;
+	}
+	
+	public double getDiscriminant() {
+		return Math.pow(b, 2) - 4*a*c;
+	}
+	
+	public double getRoot1() {
+		double r1 = (-b + Math.sqrt(getDiscriminant())) / 2*a;
+		return r1;
+	}
+	
+	public double getRoot2() {
+		double r2 = (-b - Math.sqrt(getDiscriminant())) / 2*a;
+		return r2;
+	}
+	
+	public void getRoot() {
+		if(getDiscriminant() == 0) {
+			System.out.println("The value of x is " + (-b / 2*a));
+		} else if(getDiscriminant() > 0) {
+			System.out.println("The values of x are " + getRoot1() + " and " + getRoot2());
+		} else {
+			System.out.println("The equation has no roots.");
+		}
+	}
+	
+}

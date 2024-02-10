@@ -1,0 +1,27 @@
+import java.util.Date;
+
+public class StopWatch {
+
+	private int startTime;
+	private int endTime;
+	
+	public void start() {
+		Date date = new Date();
+		int timeMilli = date.getSeconds();
+		
+		startTime = timeMilli;
+	}
+	
+	public void stop() {
+		Date date = new Date();
+		int timeMilli = date.getSeconds();
+		
+		endTime = timeMilli; 
+	}
+	
+	public int getElapsedTime() {
+		return endTime - startTime;
+		
+	}
+	
+}

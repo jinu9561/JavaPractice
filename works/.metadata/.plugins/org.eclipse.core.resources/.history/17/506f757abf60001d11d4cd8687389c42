@@ -1,0 +1,20 @@
+
+public class QuadraticEquation {
+
+	double a, b, c;
+	
+	void setA(double a) {
+		this.a = a;
+	}
+	void setB(double b) {
+		this.b = b;
+	}
+	void setC(double c) {
+		this.c = c;
+	}
+	
+	public void getDiscriminant() {
+		
+	}
+	
+}

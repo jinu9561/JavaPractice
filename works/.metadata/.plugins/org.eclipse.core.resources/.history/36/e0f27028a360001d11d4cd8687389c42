@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Practice10 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("  Q 9.1  ");
+		
+		
+		
+		sc.close();
+		
+	}
+	
+}
+
+class Rectangle{
+	private double width = 1;
+	private double height = 1;
+	
+	void setArea(double w, double h) {
+		width = w;
+		height = h;
+	}
+	
+	double getArea() {
+		return width * height;
+	}
+	
+	double getPerimeter() {
+		return 2 * (width + height);
+	}
+	
+}

@@ -1,0 +1,26 @@
+
+public class Rectangle {
+	private double width = 1;
+	private double height = 1;
+	
+	void setArea(double w, double h) {
+		width = w;
+		height = h;
+	}
+	
+	double getWidth() {
+		return width;
+	}
+	
+	double getHeight() {
+		return height;
+	}
+	
+	double getArea() {
+		return width * height;
+	}
+	
+	double getPerimeter() {
+		return 2 * (width + height);
+	}
+}
